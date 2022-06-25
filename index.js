@@ -3,7 +3,7 @@ const http = require('http')// another npm built in,
 const json = fs.readFileSync(`${__dirname}/data/data.json`,`utf-8`);
 const laptopData = JSON.parse(json);
 const url = require('url');
-
+// long time no see
        const server = http.createServer((req,res)=>{// 
        const pathname = url.parse(req.url, true).pathname;
     //    const query = url.parse(req.url,true).query; this code can be used to get all the info after the /
